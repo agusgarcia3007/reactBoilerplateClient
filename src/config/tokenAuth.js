@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosClient = axios.create({
-  baseURL: process.env.REACT_BACK_URL,
+  baseURL: import.meta.env.VITE_APP_BACKURL,
 });
 
 const tokenAuth = (token) => {

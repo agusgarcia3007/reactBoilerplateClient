@@ -244,9 +244,9 @@
     to-fast-properties "^2.0.0"
 
 "@headlessui/react@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.4.2.tgz#87e264f190dbebbf8dfdd900530da973dad24576"
-  integrity sha512-N8tv7kLhg9qGKBkVdtg572BvKvWhmiudmeEpOCyNwzOsZHCXBtl8AazGikIfUS+vBoub20Fse3BjawXDVPPdug==
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.4.3.tgz#f77c6bb5cb4a614a5d730fb880cab502d48abf37"
+  integrity sha512-n2IQkaaw0aAAlQS5MEXsM4uRK+w18CrM72EqnGRl/UBOQeQajad8oiKXR9Nk15jOzTFQjpxzrZMf1NxHidFBiw==
 
 "@heroicons/react@^1.0.5":
   version "1.0.5"
@@ -341,9 +341,9 @@ debug@^4.1.0:
     ms "2.1.2"
 
 electron-to-chromium@^1.4.17:
-  version "1.4.44"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.44.tgz#8a41923afdd6ef5ddabe001626036ba5d1d64ae6"
-  integrity sha512-tHGWiUUmY7GABK8+DNcr474cnZDTzD8x1736SlDosVH8+/vRJeqfaIBAEHFtMjddz/0T4rKKYsxEc8BwQRdBpw==
+  version "1.4.46"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.46.tgz#c88a6fedc766589826db0481602a888864ade1ca"
+  integrity sha512-UtV0xUA/dibCKKP2JMxOpDtXR74zABevuUEH4K0tvduFSIoxRVcYmQsbB51kXsFTX8MmOyWMt8tuZAlmDOqkrQ==
 
 esbuild-android-arm64@0.13.15:
   version "0.13.15"
@@ -601,6 +601,11 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-error-overlay@6.0.9:
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
+  integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -644,9 +649,9 @@ resolve@^1.20.0:
     supports-preserve-symlinks-flag "^1.0.0"
 
 rollup@^2.59.0:
-  version "2.63.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.63.0.tgz#fe2f7fec2133f3fab9e022b9ac245628d817c6bb"
-  integrity sha512-nps0idjmD+NXl6OREfyYXMn/dar3WGcyKn+KBzPdaLecub3x/LrId0wUcthcr8oZUAcZAR8NKcfGGFlNgGL1kQ==
+  version "2.64.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.64.0.tgz#f0f59774e21fbb56de438a37d06a2189632b207a"
+  integrity sha512-+c+lbw1lexBKSMb1yxGDVfJ+vchJH3qLbmavR+awDinTDA2C5Ug9u7lkOzj62SCu0PKUExsW36tpgW7Fmpn3yQ==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -696,9 +701,9 @@ to-fast-properties@^2.0.0:
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
 vite@^2.7.2:
-  version "2.7.10"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.10.tgz#d12c4c10e56a0ecf7890cb529c15996c6111218f"
-  integrity sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==
+  version "2.7.12"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.12.tgz#7784ab19e7ff98f6a192d2d7d877480a8c2b7e7d"
+  integrity sha512-KvPYToRQWhRfBeVkyhkZ5hASuHQkqZUUdUcE3xyYtq5oYEPIJ0h9LWiWTO6v990glmSac2cEPeYeXzpX5Z6qKQ==
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.4.5"
