@@ -15,8 +15,8 @@
     "react-router-dom": "6"
   },
   "devDependencies": {
-    "react-error-overlay": "6.0.9",
     "@vitejs/plugin-react": "^1.0.7",
+    "react-error-overlay": "6.0.9",
     "vite": "^2.7.2"
   }
 }
