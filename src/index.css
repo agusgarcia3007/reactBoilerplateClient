@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* aside {
+    flex: 0 0 300px;
+  } */
+  .main-section {
+    flex: 1;
+  }
+}
