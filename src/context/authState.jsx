@@ -16,6 +16,7 @@ const AuthState = (props) => {
 
   const [state, dispatch] = useReducer(authReducer, initialState);
 
+  console.log(import.meta.env.BASE_URL);
   //functions
 
   //return authed user
