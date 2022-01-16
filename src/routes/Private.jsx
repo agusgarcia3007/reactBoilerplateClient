@@ -5,14 +5,14 @@ import React from "react";
 
 const useRoute = () => {
   const authContext = useContext(AuthContext);
-  const { token, userAuthenticated } = authContext;
+  const { authenticated, userAuthenticated } = authContext;
 
   useEffect(() => {
     userAuthenticated();
     //eslint-disable-next-line
   }, []);
 
-  return token ? <Outlet /> : <Navigate to="/" />;
+  return authenticated ? <Outlet /> : <Navigate to="/" />;
 };
 
 export default useRoute;
