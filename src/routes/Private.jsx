@@ -12,7 +12,7 @@ const useRoute = () => {
     //eslint-disable-next-line
   }, []);
 
-  return authenticated ? <Outlet /> : <Navigate to="/" />;
+  return !authenticated ? <Navigate to="/" /> : <Outlet />;
 };
 
 export default useRoute;
