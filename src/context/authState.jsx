@@ -17,7 +17,6 @@ const AuthState = (props) => {
   const [state, dispatch] = useReducer(authReducer, initialState);
 
   //functions
-
   //return authed user
   const userAuthenticated = async () => {
     const token = localStorage.getItem("token");
